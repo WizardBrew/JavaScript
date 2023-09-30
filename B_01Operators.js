@@ -15,3 +15,4 @@ console.log(num3);
 console.log(num4);
 console.log(num5);
 console.log(num6);
+console.log(num6);
