@@ -16,7 +16,14 @@ function welcome(fname, bye = 'Visit again') {
         return msg
 }
 
-
 // let attribs  = welcome('Wiz')        // assign and call 
 // console.log(attribs)
 console.log(welcome(myname)) // direct call not recommended
+
+function car(cname, cmodel) {
+        
+        console.log("Hey this is amazing ", cname, " this was developed in year",cmodel)
+
+}
+
+car('Maruti', '2000')
