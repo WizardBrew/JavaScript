@@ -165,16 +165,25 @@ this can be used to explain*/
 // const object1 = Object.create(prototype1);
 // console.log(Object.getPrototypeOf(object1) === prototype1);
 
+<<<<<<< HEAD
 // const pt1 = {};
 // const ob1 = Object.create(pt1);
 // console.log(Object.getPrototypeOf(ob1) === pt1);
 
 // var obj = new Fun();
+=======
+const pt1 = {};
+const ob1 = Object.create(pt1);
+console.log(Object.getPrototypeOf(ob1) === pt1);
+
+// var obj = new Fun(); 
+>>>>>>> ae9b495a3848d3f191a4f9b12ab70b33472207e0
 // console.log(obj.constructor === Fun)
 
 
 // var obj = new Fun();
 // console.log(obj.constructor === Fun)
+<<<<<<< HEAD
 
 
 function calculateBMI(weight, height) {
@@ -228,3 +237,5 @@ console.log(calculateBMI(9, 5.5 ))
 
 // // Do not modify the below lines
 // module.exports = { isPalindrome };
+=======
+>>>>>>> ae9b495a3848d3f191a4f9b12ab70b33472207e0
